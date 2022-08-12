@@ -1,9 +1,9 @@
 ## HelloWorld
 
-### CodePath-prework
+### CodePath-Prework
 Created a HelloWorld app, where the user can change the text, change the color of the text, and user can add tap buttons to change how the app looks.
 
-### App Walk-though
+### App Walk-through
 <img src="http://g.recordit.co/Tmn6NlfEz9.gif" width=200><br>
 
 ### Required User Stories
