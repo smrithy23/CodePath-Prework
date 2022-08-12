@@ -42,7 +42,10 @@ class MainActivity : AppCompatActivity() {
         findViewById<Button>(R.id.button3).setOnClickListener {
             Log.i("Smrithy", "Button3 clicked")
             //findViewById<TextView>(R.id.textView).setText("Andriod is Awesome!")
-            var t = findViewById<EditText>(R.id.edit).text
+            var t = findViewById<EditText>(R.id.edit).text.toString()
+            if(t.equals("")){
+                t = "Android is Awesome!"
+            }
             findViewById<TextView>(R.id.textView).setText(t)
 
         }
